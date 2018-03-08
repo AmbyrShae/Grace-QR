@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    text-align: justify;
 }
 
 .photo {
@@ -21,7 +22,7 @@ body {
 }
 
 .information {
-    margin: 20px;
+    margin: 20px 30px;
     font-weight: 300;
 }
 
@@ -38,11 +39,17 @@ body {
 .information > blockquote {
     font-size: 24px;
     margin-bottom: 40px;
+    text-align: left;
+}
+
+.story {
+    font-size: 18px;
 }
 
 .ambs {
     color: gray;
     font-weight: 300;
     font-size: 14px;
-    margin: 40px 10px 10px 10px;
+    margin: 40px;
+    text-align: center;
 }
