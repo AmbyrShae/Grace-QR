@@ -22,7 +22,7 @@ body {
 }
 
 .information {
-    margin: 1.250em;
+    margin: 1.250em 1.875em;
     font-weight: 300;
 }
 
@@ -58,6 +58,10 @@ body {
 @media (min-width: 321px) {
     .susan {
         text-align: left;
+    }
+
+    .information {
+        margin: 1.250em;
     }
 
     .information > blockquote {
