@@ -33,12 +33,12 @@ body {
 .susan > p {
     margin-top: 0.313em;
     font-weight: 400;
-    margin-bottom: 2.500em;
+    margin-bottom: 40px;
 }
 
 .information > blockquote {
     font-size: 1.500em;
-    margin-bottom: 2.500em;
+    margin-bottom: 40px;
     text-align: left;
 }
 
@@ -52,4 +52,16 @@ body {
     font-size: 0.875em;
     margin: 2.500em;
     text-align: center;
+}
+
+/* responsive design */
+@media (min-width: 321px) {
+    .susan {
+        text-align: left;
+    }
+
+    .information > blockquote {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
