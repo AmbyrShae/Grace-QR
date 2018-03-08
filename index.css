@@ -55,7 +55,7 @@ body {
 }
 
 /* responsive design */
-@media (min-width: 321px) {
+@media (max-width: 400px) {
     .susan {
         text-align: left;
     }
