@@ -18,11 +18,11 @@ body {
 .photo > p {
     position: absolute;
     bottom: 0;
-    right: 10px;
+    right: 0.625em;
 }
 
 .information {
-    margin: 20px;
+    margin: 1.250em;
     font-weight: 300;
 }
 
@@ -31,14 +31,14 @@ body {
 }
 
 .susan > p {
-    margin-top: 5px;
+    margin-top: 0.313em;
     font-weight: 400;
-    margin-bottom: 40px;
+    margin-bottom: 2.500em;
 }
 
 .information > blockquote {
-    font-size: 24px;
-    margin-bottom: 40px;
+    font-size: 1.500em;
+    margin-bottom: 2.500em;
     text-align: left;
 }
 
@@ -49,7 +49,7 @@ body {
 .ambs {
     color: gray;
     font-weight: 300;
-    font-size: 14px;
-    margin: 40px;
+    font-size: 0.875em;
+    margin: 2.500em;
     text-align: center;
 }
