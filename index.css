@@ -38,12 +38,18 @@ body {
 
 .information > blockquote {
     font-size: 1.500em;
-    margin-bottom: 40px;
+    margin-bottom: 22px;
     text-align: left;
+}
+
+.information > blockquote > p {
+    font-size: large;
 }
 
 .story {
     font-size: 18px;
+    display: inline-block;
+
 }
 
 .ambs {
